@@ -18,5 +18,4 @@ router.delete("/blogs",middlewareController.authenticate,blogsController.deleteB
 
 
 
-
 module.exports = router;
